@@ -4,13 +4,71 @@
 
 <head>
 	<link rel="stylesheet" href="styles.css">
+	 <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      min-height: 100vh;
+      background-color: #f0f0f0;
+    }
+    
+    .card {
+      width: 300px;
+      padding: 20px;
+      background-color: #ffffff;
+      box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+      border-radius: 10px;
+      text-align: center;
+    }
+    
+    .card img {
+      width: 80px;
+    }
+    
+    .card h1 {
+      margin-top: 10px;
+      font-size: 24px;
+    }
+    
+    .card p.price {
+      font-size: 18px;
+      color: #333333;
+    }
+    
+    .card p.description {
+      margin-top: 10px;
+      font-size: 14px;
+      color: #666666;
+    }
+    
+    .card button {
+      margin-top: 20px;
+      padding: 10px 20px;
+      background-color: #007bff;
+      color: #ffffff;
+      border: none;
+      border-radius: 5px;
+      cursor: pointer;
+      font-size: 16px;
+    }
+  </style>
 </head>
 
 <body>
 	<!-- the entire body must be written by student -->
     <script type="text/javascript" src="./script.js">
 </script>
-
+ <div class="card">
+    <img src="https://i.pinimg.com/originals/2f/9d/95/2f9d9562eb2252ae132b4bf8258aa18a.jpg" alt="Product Image">
+    <h1>Product Name</h1>
+    <p class="price">$99.99</p>
+    <p class="description">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+    <button>Buy Now</button>
+  </div>
 </body>
 
 </html>
